@@ -1,0 +1,26 @@
+section {
+    width: 100vw;
+    height: 100vh;
+    background: gray;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 14vh;
+    width: 100vw;
+
+    background-color: #fff;
+
+    .header-title {
+        margin:0;
+        padding: 0;
+    }
+    .header-message {
+        margin:0;
+        padding: 0;
+    }
+}
