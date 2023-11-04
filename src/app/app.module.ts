@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainLayout } from './main-layout/main-layout.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ConfirmarPresencaComponent } from './pages/confirmar-presenca/confirmar-presenca.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainLayout,
-    HomeComponent
+    HomeComponent,
+    ConfirmarPresencaComponent
   ],
   imports: [
     BrowserModule,
