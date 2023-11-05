@@ -2,9 +2,9 @@ section {
     width: 100vw;
     height: 100vh;
 
-    // background-image: url('/assets/bg-foto.jpeg');
+    
 
-    background-color: #fdd7c1;
+    //background-color: #fdd7c1;
 }
 
 header {
@@ -30,8 +30,7 @@ header {
         font-weight: 400;
     }
     .header-message {
-        margin:0;
-        margin-top:-1vh;
+        margin-top: 0.5vh;
         padding: 0;
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
@@ -51,7 +50,7 @@ body {
 
     margin: 0;
     padding: 0;
-
+    background-image: url('/assets/bg-foto.png');
 
     
 
@@ -86,25 +85,59 @@ body {
     }
 
     .buttons {
-        margin-top: 8vh;
+        margin-top:12vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-end;
         height: 16vh;
 
         button {
+            margin-top: 1.5vh;
             border: 0;
-            width: 45.6vw;
+            width: 40vw;
             height: 4.5vh;
 
             font-family: 'Roboto', sans-serif;
-            font-weight: 300;
+            font-weight: 500;
             font-size: 1.7vh;
             color: #73503C;
 
             border-radius: 10px;
-
-            box-shadow: 0px 3px 1px #73503C;
+            background-color: #fff;
+            
         }
+        button:hover{cursor: pointer;}
     }
 }
+
+.div-bigscreen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    font-family: roboto;
+    color: black;
+    font-size: 10vw;
+}
+
+
+
+
+@media screen and (min-width: 480px) {
+    section, header, body {
+        display: none;
+    }
+    .div-bigscreen {
+        display: flex;
+    }
+}
+@media screen and (max-width: 480px) {
+    .div-bigscreen {
+        display: none;
+    }
+
+}
+

@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MainLayout } from './main-layout.component';
+import { LocalComponent } from './local.component';
 
-describe('HomeComponent', () => {
-  let component: MainLayout;
-  let fixture: ComponentFixture<MainLayout>;
+describe('LocalComponent', () => {
+  let component: LocalComponent;
+  let fixture: ComponentFixture<LocalComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [MainLayout]
+      declarations: [LocalComponent]
     });
-    fixture = TestBed.createComponent(MainLayout);
+    fixture = TestBed.createComponent(LocalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

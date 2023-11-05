@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80vw;
+    height: 20vh;
+
+    border-radius: 10px;
+
+    background-color: #fff;
+
+
+    .topbar {
+        width: 80vw;
+        height: 3.5vh;
+        background: #D69B7A;
+    }
+
+    p {
+        margin-top: 3vh;
+        width: fit;
+        color: #A66E4E;
+        font-family: Roboto;
+        font-size: 4.6vw;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .button-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 9vh;
+        width: 64vw;
+
+        .enviar {
+            border: none;
+            width: 29.6vw;
+            height: 5vh;
+            background-color: #FFC8C8;
+            border-radius: 5px;
+            box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+
+            color: #FFF;
+
+            font-family: Russo One;
+            font-size: 3.75vw;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .enviado {
+            border: none;
+            width: 29.6vw;
+            height: 5vh;
+            background-color: #E9D7CE;
+            border-radius: 5px;
+            box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+
+            color: #FFF;
+
+            font-family: Russo One;
+            font-size: 3.75vw;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+}

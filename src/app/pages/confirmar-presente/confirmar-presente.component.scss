@@ -5,6 +5,8 @@ section {
     align-items: center;
     width: 100vw;
     height: 100vh;
+
+    background-color: #FFF9F5;
     
 }
 
@@ -34,43 +36,14 @@ section {
 }
 
 .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     margin-top: 8.8vh;
     width: 80vw;
     height: fit-content;
-
-
-    .search {
-
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        
-
-        height: 5.6vh;
-        width: 80vw;
-        background-color: #fff;
-        
-        svg {
-            margin-left: 10px;
-        }
-
-        input{
-            border: none;
-            width: 100%;
-            padding-left: 10px;
-            color: #CEB9B2;
-            font-family: Roboto;
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            outline: none;
-        }
-        input::placeholder {
-            color: #CEB9B2;
-        }
-        border-bottom: 1px solid #CEB9B2;
-    }
 
     .list {
         margin-top: 5.6vh;
@@ -94,7 +67,7 @@ section {
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            align-items: flex-start;
+            align-items: center;
             
             width: 80vw;
             height: 30vh;
@@ -124,26 +97,47 @@ section {
         }
     }
 
-    .message {
-
-        margin-top: 5.6vh;
-
-
+    div { 
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        height: fit-content;
         p {
             padding: 0;
-            margin: 0;
+            margin: 2px;
             color: #A66E4E;
             font-family: Roboto;
-            font-size: 10px;
+            font-size: 4vw;
             font-style: normal;
             font-weight: 300;
             line-height: normal;
-        }
 
-        span {
-            font-weight: 400;
         }
     }
+
+    button {
+
+        margin-top: 7vh;
+
+        border: none;
+            width: 30vw;
+            height: 7vh;
+            background-color: #E9D7CE;
+            border-radius: 5px;
+            box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+
+            color: #FFF;
+
+            font-family: Russo One;
+            font-size: 3.75vw;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+    }
+
 }
 
 

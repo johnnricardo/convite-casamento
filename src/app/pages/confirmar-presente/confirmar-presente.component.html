@@ -1,0 +1,24 @@
+<section>
+    <div class="header">
+        <h1>Lista de Presentes</h1>
+    </div>
+    <div class="box">
+
+        <div class="list">
+            <div class="list-content">
+                <div class="linha" *ngFor="let presente of listaPresentes; let i = index">
+                    <input type="checkbox" name="" id="" (click)="marcarCheckBox(i)" >
+                    <label>{{presente.nome}}</label>
+                </div>
+            </div>
+        </div>
+    
+    <div>
+        <p>Para presentes em dinheiro,</p>
+        <p> Pix: <strong>28999067634</strong> </p>
+    </div>
+    <button (click)="confirmar()">
+        Confirmar
+    </button>
+    </div>
+</section>
