@@ -2,12 +2,18 @@ section {
     width: 100vw;
     height: 100%;
 
-    
+    img {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        z-index: 0;
+       }
 
     //background-color: #fdd7c1;
 }
 
 header {
+    z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,16 +53,18 @@ body {
     align-items: center;
 
     width: 100vw;
-    height: 85vh;
+    height: fit-content;
 
     margin: 0;
     padding: 0;
-    background-color: rgba(92, 112, 56, 0.40);
+   // background-color: rgba(92, 112, 56, 0.40);
     
+   
     
 
     .box {
-        margin-top: 5vh;
+        z-index: 1;
+        margin-top: 10vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -66,8 +74,8 @@ body {
         height: 35vh;
         background-color: #FFFFFF;
         
-        border-top: 4px solid #4E5E35;
-        border-bottom: 4px solid #4E5E35;
+        border-top: 4px solid #f3f2f2;
+        border-bottom: 4px solid #f3f2f2;
         border-radius: 5px;
 
         h1 {
@@ -91,7 +99,8 @@ body {
     }
 
     .buttons {
-        margin-top:1vh;
+        z-index: 1;
+        margin-top:6vh;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -103,7 +112,7 @@ body {
             width: 45vw;
             height: 6vh;
 
-            color: #959E85;
+            color: #868684;
 
             font-family: Roboto;
             font-size: 1.7vh;
@@ -114,9 +123,8 @@ body {
 
             border-radius: 5px;
             background-color: #fff;
-
-        border-top: 3px solid #4E5E35;
-        border-bottom: 3px solid #4E5E35;
+            
+            box-shadow: 2px 4px 1px #e0e0e0;
             
         }
         button:hover{cursor: pointer;}
