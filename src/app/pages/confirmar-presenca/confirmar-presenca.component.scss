@@ -4,7 +4,7 @@ section {
     justify-content: flex-start;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     
 }
 
@@ -35,6 +35,11 @@ section {
 }
 
 .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     margin-top: 8.8vh;
     width: 80vw;
     height: fit-content;
@@ -53,8 +58,10 @@ section {
         
         svg {
             margin-left: 10px;
+            fill:#959E85 ;
             path {
                 stroke: #959E85;
+                fill:#959E85 ;
             }
         }
 
@@ -109,7 +116,7 @@ section {
                 justify-content: flex-start;
                 align-items: center;
                 width: 80vw;
-                height: 7vh;
+                min-height: 6vh;
 
                 input {
                     margin-left: 10px;
