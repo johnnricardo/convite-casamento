@@ -15,12 +15,13 @@ section {
     justify-content: center;
 
     width: 100vw;
-    margin-top: 11.9vh;
+    margin-top: 8vh;
 
     h1 {
         padding: 0;
         margin: 0;
-        color: #73503C;
+        color: #465F1C;
+        opacity: 0.75;
         text-align: center;
         font-family: Dancing Script;
         font-size: 30px;
@@ -52,13 +53,16 @@ section {
         
         svg {
             margin-left: 10px;
+            path {
+                stroke: #959E85;
+            }
         }
 
         input{
             border: none;
             width: 100%;
             padding-left: 10px;
-            color: #CEB9B2;
+            color: #959E85;
             font-family: Roboto;
             font-size: 12px;
             font-style: normal;
@@ -67,9 +71,9 @@ section {
             outline: none;
         }
         input::placeholder {
-            color: #CEB9B2;
+            color: #959E85;
         }
-        border-bottom: 1px solid #CEB9B2;
+        border-bottom: 1px solid #959E85;
     }
 
     .list {
@@ -82,10 +86,10 @@ section {
         min-height: 30vh;
         background-color: #fff;
         border-radius: 5px;
-        border-top: 5px solid #BFA399;
-        border-right: 0.5px solid #BFA399;
-        border-bottom: 4px solid #BFA399;
-        border-left: 0.5px solid #BFA399;   
+        border-top: 5px solid #959E85;
+        border-right: 0.5px solid #959E85;
+        border-bottom: 4px solid #959E85;
+        border-left: 0.5px solid #959E85;   
 
         .list-content {
             
@@ -105,16 +109,16 @@ section {
                 justify-content: flex-start;
                 align-items: center;
                 width: 80vw;
-                height: 5vh;
+                height: 7vh;
 
                 input {
                     margin-left: 10px;
                     width: 10px;
-                    height: 10px;
+                    height: 15px;
                 }
                 label {
                     margin-left: 5px;
-                    color: #A66E4E;
+                    color: #465F1C;
                     font-family: Roboto;
                     font-size: 12px;
                     font-style: normal;
@@ -132,7 +136,7 @@ section {
         p {
             padding: 0;
             margin: 0;
-            color: #A66E4E;
+            color: #959E85;
             font-family: Roboto;
             font-size: 10px;
             font-style: normal;

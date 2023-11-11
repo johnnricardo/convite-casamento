@@ -5,7 +5,7 @@
     align-items: center;
 
     width: 80vw;
-    height: 20vh;
+    height: 25vh;
 
     border-radius: 10px;
 
@@ -15,13 +15,13 @@
     .topbar {
         width: 80vw;
         height: 3.5vh;
-        background: #D69B7A;
+        background: #959E85;
     }
 
     p {
         margin-top: 3vh;
         width: fit;
-        color: #A66E4E;
+        color: #465F1C;
         font-family: Roboto;
         font-size: 4.6vw;
         font-style: normal;
@@ -39,7 +39,7 @@
         .enviar {
             border: none;
             width: 29.6vw;
-            height: 5vh;
+            height: 7vh;
             background-color: #FFC8C8;
             border-radius: 5px;
             box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
@@ -56,15 +56,17 @@
         .enviado {
             border: none;
             width: 29.6vw;
-            height: 5vh;
-            background-color: #E9D7CE;
+            height: 7vh;
+            background-color: #C0c0c0;
             border-radius: 5px;
             box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
 
             color: #FFF;
 
+            color: #FFF;
+
             font-family: Russo One;
-            font-size: 3.75vw;
+            font-size: 12px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;

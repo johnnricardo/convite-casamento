@@ -1,6 +1,6 @@
 section {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
 
     
 
@@ -25,18 +25,19 @@ header {
         margin:0;
         padding: 0;
         font-family: 'Dancing Script', sans-serif;
-        font-size: 14vw;
-        color: #73503C;
+        font-size: 12vw;
+        color: #465F1C;
         font-weight: 400;
+        opacity: 0.4;
     }
-    .header-message {
-        margin-top: 0.5vh;
-        padding: 0;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        font-size: 3.6vw;
-        color: #A66E4E;
-    }
+    // .header-message {
+    //     margin-top: 0.5vh;
+    //     padding: 0;
+    //     font-family: 'Roboto', sans-serif;
+    //     font-weight: 300;
+    //     font-size: 3.6vw;
+    //     color: #A66E4E;
+    // }
 }
 
 body {
@@ -50,60 +51,72 @@ body {
 
     margin: 0;
     padding: 0;
-    background-image: url('/assets/bg-foto.png');
+    background-color: #EDFFCD;
 
+    opacity: 0.8;
     
 
     .box {
-        margin-top: 16.3vh;
+        margin-top: 7vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
         width: 69.3vw;
-        height: 33.4vh;
+        height: 35vh;
         background-color: #FFFFFF;
         opacity: 0.9;
-        border-top: 4px solid #BFA399;
-        border-bottom: 4px solid #BFA399;
+        border-top: 4px solid #959E85;
+        border-bottom: 4px solid #959E85;
         border-radius: 5px;
 
         h1 {
             margin: 0;
             padding: 0;
             font-family: 'Dancing Script', sans-serif;
-            font-size: 12.5vw;
-            color: #73503C;
+            font-size: 11vw;
+            color: #959E85;
             font-weight: 400;
             width: fit-content;
+            line-height: normal;
 
             span {
                 font-size: 4.5vw;
+                margin: 0;
+                padding: 0;
+                color: #465F1C;
+                opacity: 0.8;
             }
         }
     }
 
     .buttons {
-        margin-top:12vh;
+        margin-top:3vh;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        height: 16vh;
+        height: fit-content;
 
         button {
-            margin-top: 1.5vh;
+            margin-top: 3vh;
             border: 0;
-            width: 40vw;
-            height: 4.5vh;
+            width: 45vw;
+            height: 6vh;
 
-            font-family: 'Roboto', sans-serif;
-            font-weight: 500;
+            color: #465F1C;
+
+            font-family: Roboto;
             font-size: 1.7vh;
-            color: #73503C;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            text-transform: capitalize;
 
             border-radius: 10px;
             background-color: #fff;
+
+            box-shadow: 2px 4px 1px rgba(70, 95, 28, 0.72);
             
         }
         button:hover{cursor: pointer;}

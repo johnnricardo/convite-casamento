@@ -1,7 +1,7 @@
 <section>
     <header>
         <h1 class="header-title">Bem Vindo!</h1>
-        <h6 class="header-message">VOCÊ FOI CONVIDADO AO</h6>
+        <!-- <h6 class="header-message">VOCÊ FOI CONVIDADO AO</h6> -->
     </header>
     <body>
         <div class="box">
@@ -13,9 +13,13 @@
             <button (click)="navigateConfirmarPresenca()">
                 CONFIRMAR PRESENÇA
             </button>
-            <button style="box-shadow: 0px 3px 1px #73503C;" (click)="navigateLocal()">
-                LOCAL DA CERIMÔNIA
+            <button  (click)="navigatePresente()">
+                LISTA DE PRESENTES
             </button>
+            <button  (click)="navigateLocal()">
+                LOCAL E DATA
+            </button>
+            
         </div>
     </body>
 </section>

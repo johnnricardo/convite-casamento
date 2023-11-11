@@ -1,7 +1,7 @@
 section {
     width: 100vw;
     height: 100vh;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -16,6 +16,7 @@ section {
             width: fit-content;
             height: fit-content;
             background-color: #fff;
+
             svg {
                 width: 3vw;
             }
@@ -35,16 +36,18 @@ section {
     }
 
     .nome-sitio {
+        margin-top: 8vh;
+        margin-bottom: 5vh;
         display: flex;
         justify-content: center;
         align-items: center;
 
         width: 46vw;
-        height: 4vh ;
+        height: 4vh;
 
-        background-color: #73503C;
+        background-color: #4E5E35;
 
-        p{
+        p {
             padding: 0;
             margin: 0;
             color: #FFF;
@@ -59,9 +62,14 @@ section {
 
     .endereco {
 
-        margin-top: 2.2vh ;
+        
 
-        color: #A66E4E;
+        margin: 0;
+        padding: 0;
+        margin-top: 2.2vh;
+
+        color: #465F1C;
+        opacity: 0.8;
         text-align: center;
         font-family: Roboto;
         font-size: 10px;
@@ -72,14 +80,14 @@ section {
 
     .img {
         width: 69.3vw;
-            height: 33.4vh;
+        height: 33.4vh;
 
         img {
             width: 69.3vw;
             height: 33.4vh;
-            border: 1px solid #BFA399;
+            border: 1px solid #4e5e351c;
         }
-        
+
     }
 
     div {
@@ -87,19 +95,19 @@ section {
 
         display: flex;
         justify-content: flex-end;
-        
-        width:69.3vw ;
+
+        width: 69.3vw;
 
 
 
 
         .desc {
-            
+
             padding: 0;
             margin: 0;
             text-align: right;
-            color: #A66E4E;
-    
+            color: #4E5E35;
+            opacity: 0.8;
             text-align: center;
             font-family: Roboto;
             font-size: 3.5vw;
@@ -110,7 +118,7 @@ section {
     }
 
     .data {
-        margin-top: 3.1vh; 
+        margin-top: 3.1vh;
 
         display: flex;
         justify-content: center;
@@ -118,20 +126,22 @@ section {
 
         width: 81.8vw;
         height: 9.5vh;
-        background-color: #73503C;;
+        background-color: #4E5E35;
+        ;
+
         p {
             padding: 0;
             margin: 0;
             color: #FFF;
-                text-align: center;
-                font-family: Arimo;
-                font-size: 20px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: normal;
+            text-align: center;
+            font-family: Arimo;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
         }
     }
-    
+
     .avisos {
         margin-top: 3.5vh;
 
@@ -147,7 +157,8 @@ section {
             padding: 0;
             margin: 0;
 
-            color: #A66E4E;
+            color: #4E5E35;
+            opacity: 0.8;
             text-align: center;
             font-family: Roboto;
             font-size: 3vw;
@@ -166,7 +177,7 @@ section {
 
         width: 48.7vw;
         height: 3.5vh;
-        background-color: #FFA5A5;
+        background-color: #D26767;
 
         p {
             padding: 0;

@@ -17,4 +17,8 @@ export class HomeComponent {
   navigateLocal() {
     this.router.navigate(['local'])
   }
+
+  navigatePresente(){
+    this.router.navigate(['presente'])
+  }
 }
