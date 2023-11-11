@@ -71,13 +71,15 @@ section {
             width: 80vw;
             height: 30vh;
 
-            .linha {
+            button.linha {
+                border: 0 none;
+                background-color: #fff;
                 display: flex;
                 flex-direction: row;
                 justify-content: flex-start;
                 align-items: center;
                 width: 80vw;
-                height: 5vh;
+                min-height: 5vh;
 
                 input {
                     margin-left: 10px;
@@ -117,7 +119,7 @@ section {
         }
     }
 
-    button {
+    button.confirmar {
 
         margin-top: 7vh;
 

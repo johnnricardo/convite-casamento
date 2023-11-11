@@ -11,10 +11,10 @@
 
         <div class="list">
             <div class="list-content">
-                <div  class="linha" *ngFor="let convidado of listaConvidados; let i = index">
+                <button  class="linha" (click)="openDialog(i)" *ngFor="let convidado of listaConvidados; let i = index">
                     <input  type="checkbox" name="" id="" (click)="openDialog(i)" [checked]="convidado.checked" [disabled]="convidado.checked" >
                     <label>{{convidado.nome | titlecase}}</label>
-                </div>
+                </button>
             </div>
         </div>
 

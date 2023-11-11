@@ -6,10 +6,10 @@
 
         <div class="list">
             <div class="list-content">
-                <div class="linha" *ngFor="let presente of listaPresentes; let i = index">
+                <button class="linha" *ngFor="let presente of listaPresentes; let i = index" (click)="marcarCheckBox(i)" >
                     <input type="checkbox" name="" id="" (click)="marcarCheckBox(i)" [checked]="presente.checked" [disabled]="presente.confirmado">
                     <label>{{presente.nome}}</label>
-                </div>
+                </button>
             </div>
         </div>
 
@@ -17,7 +17,7 @@
             <p>Para presentes em dinheiro,</p>
             <p> Pix: <strong>28999067634</strong> </p>
         </div>
-        <button (click)="confirmar()">
+        <button class="confirmar" (click)="confirmar()">
             Confirmar
         </button>
     </div>
