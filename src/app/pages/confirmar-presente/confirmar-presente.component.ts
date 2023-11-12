@@ -20,7 +20,7 @@ export class ConfirmarPresenteComponent implements OnInit {
   
   listaPresentes = [
     {nome: 'Travesseiro', checked: false, confirmado: false},
-    {nome: 'AirFryer', checked: true, confirmado: true },
+    {nome: 'AirFryer', checked: false, confirmado: false },
     {nome: 'Edredom', checked: false, confirmado: false },
     {nome: 'Jogo de Lençol', checked: false, confirmado: false },
     {nome: 'Manta Casal', checked: false, confirmado: false },
@@ -33,7 +33,7 @@ export class ConfirmarPresenteComponent implements OnInit {
     {nome: 'Bowl', checked: false, confirmado: false },
     {nome: 'Jarra de Vidro', checked: false, confirmado: false },
     {nome: 'Jogo de Xícara', checked: false, confirmado: false },
-    {nome: 'Misteira', checked: true, confirmado: true }, // alice
+    {nome: 'Misteira', checked: false, confirmado: false }, // alice
     {nome: 'Liquidificador', checked: false, confirmado: false }, // isabele
     {nome: 'Jogo de Copo', checked: false, confirmado: false }, // raquel
     {nome: 'Vaso de decoração', checked: false, confirmado: false },
@@ -46,8 +46,8 @@ export class ConfirmarPresenteComponent implements OnInit {
     {nome: 'Purificador de Água', checked: false, confirmado: false },
     {nome: 'Jogo de Pirex', checked: false, confirmado: false },
     {nome: 'Mop de Limpeza', checked: false, confirmado: false },
-    {nome: 'Máquina de Lavar', checked: true, confirmado: true }, // samea
-    {nome: 'Sofá', checked: true, confirmado: true }, // ray, brenda, gu e gi
+    {nome: 'Máquina de Lavar', checked: false, confirmado: false }, // samea
+    {nome: 'Sofá', checked: false, confirmado: false }, // ray, brenda, gu e gi
     {nome: 'Jogo de Facas', checked: false, confirmado: false },
     {nome: 'Panela de Arroz Elétrica', checked: false, confirmado: false },
     {nome: 'Panela de Pressão Elétrica', checked: false, confirmado: false },
@@ -97,6 +97,8 @@ export class ConfirmarPresenteComponent implements OnInit {
   marcarCheckBox(i: number) {
 
     this.listaPresentes[i].checked = !this.listaPresentes[i].checked
+
+  
     //this.controllerService.anexarPresente( this.listaPresentes[i].nome)
     }
   }

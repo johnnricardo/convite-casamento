@@ -20,85 +20,85 @@ export class ControllerService implements OnInit {
   }
 
   listaConvidados = [
-    {nome: 'ray Cabral', checked: true},
-    {nome: 'brenda', checked: true},
-    {nome: 'geovania', checked: true},
-    {nome: 'gutierryz Romanelli', checked: true},
-    {nome: 'geilson Meireles', checked: true},
-    {nome: 'marcia Meireles', checked: true},
-    {nome: 'diovani Monteiro', checked: true},
-    {nome: 'silvia Monteiro', checked: true},
-    {nome: 'amanda Monteiro', checked: true},
-    {nome: 'daniel Fagundes', checked: false},
-    {nome: 'thamires', checked: false},
-    {nome: 'joão Pedro', checked: false},
-    {nome: 'davi Miguel', checked: false},
-    {nome: 'fendo Bertolaine', checked: false},
-    {nome: 'solange Bertolaine', checked: false},
-    {nome: 'lucas Monteiro', checked: false},
-    {nome: 'thais', checked: false},
-    {nome: 'paulo Fagundes', checked: false},
-    {nome: 'nadiene', checked: false},
-    {nome: 'luisa', checked: false},
-    {nome: 'larissa', checked: false},
-    {nome: 'sabrina Fagundes', checked: false},
-    {nome: 'dona Santa (pai)', checked: false},
-    {nome: 'daniel (avô)', checked: false},
-    {nome: 'dona Santa (mãe)', checked: false},
-    {nome: 'marcia Fernanda Bayerl', checked: false},
-    {nome: 'marcelo', checked: false},
-    {nome: 'denilton', checked: true},
-    {nome: 'renilda', checked: true},
-    {nome: 'samea', checked: true},
-    {nome: 'wellington', checked: true},
-    {nome: 'geni', checked: false},
-    {nome: 'walter', checked: false},
+    {nome: 'ray Cabral', checked: true}, //
+    {nome: 'brenda', checked: true}, //
+    {nome: 'geovania', checked: true}, //
+    {nome: 'gutierryz Romanelli', checked: true}, //
+    {nome: 'geilson Meireles', checked: true}, //
+    {nome: 'marcia Meireles', checked: true}, //
+    {nome: 'diovani Monteiro', checked: true}, //
+    {nome: 'silvia Monteiro', checked: true}, //
+    {nome: 'amanda Monteiro', checked: true}, //
+    {nome: 'daniel Fagundes', checked: false}, //
+    {nome: 'thamires', checked: false}, //
+    {nome: 'joão Pedro', checked: false}, //
+    {nome: 'davi Miguel', checked: false}, //
+    {nome: 'fendo Bertolaine', checked: false}, //
+    {nome: 'solange Bertolaine', checked: false}, //
+    {nome: 'lucas Monteiro', checked: false}, //
+    {nome: 'thais', checked: false}, //
+    {nome: 'paulo Fagundes', checked: false}, //
+    {nome: 'nadiene', checked: false}, //
+    {nome: 'luisa', checked: false}, //
+    {nome: 'larissa', checked: false}, //
+    {nome: 'sabrina Fagundes', checked: false}, //
+    {nome: 'dona Santa (pai)', checked: false}, //
+    {nome: 'daniel (avô)', checked: false}, //
+    {nome: 'dona Santa (mãe)', checked: false},  //
+    {nome: 'marcia Fernanda Bayerl', checked: false}, //
+    {nome: 'marcelo', checked: false}, //
+    {nome: 'denilton', checked: true}, //
+    {nome: 'renilda', checked: true}, //
+    {nome: 'samea', checked: true}, //
+    {nome: 'wellington', checked: true}, //
+    {nome: 'geni', checked: false}, //
+    {nome: 'walter', checked: false}, //
     {nome: 'ilma', checked: false},
     {nome: 'vanil', checked: false},
     {nome: 'paulo Sergio', checked: false},
     {nome: 'neuzelina', checked: false},
     {nome: 'karolyne', checked: false},
     {nome: 'william', checked: false},
-    {nome: 'queren', checked: true},
-    {nome: 'lucas Geri', checked: true},
-    {nome: 'josiel', checked: false},
-    {nome: 'priscila', checked: false},
-    {nome: 'marcelo (raquel) ', checked: true},
-    {nome: 'raquel', checked: true},
-    {nome: 'darlan', checked: true},
-    {nome: 'romeu', checked: false},
-    {nome: 'rute', checked: false},
-    {nome: 'samuel', checked: false},
+    {nome: 'queren', checked: true}, //
+    {nome: 'lucas Geri', checked: true}, //
+    {nome: 'josiel', checked: false}, //
+    {nome: 'priscila', checked: false}, //
+    {nome: 'marcelo (raquel) ', checked: true}, //
+    {nome: 'raquel', checked: true}, //
+    {nome: 'darlan', checked: true}, //
+    {nome: 'romeu', checked: false}, //
+    {nome: 'rute', checked: false}, //
+    {nome: 'samuel', checked: false}, //
     {nome: 'eduardo Bigue', checked: false},
     {nome: 'dayane', checked: false},
-    {nome: 'paulinha', checked: false},
-    {nome: 'matheus Pimenta', checked: false},
-    {nome: 'danielle Alves', checked: false},
-    {nome: 'beatriz Monteiro', checked: true},
-    {nome: 'carol Monteiro', checked: true},
-    {nome: 'simone Monteiro', checked: true},
-    {nome: 'alef', checked: true},
-    {nome: 'renata', checked: false},
-    {nome: 'gilvan', checked: false},
-    {nome: 'marcela Souza', checked: false},
-    {nome: 'luiz (marcela)', checked: false},
-    {nome: 'mariana', checked: false},
-    {nome: 'anna Júlya', checked: true},
-    {nome: 'yuri', checked: true},
-    {nome: 'matheus Jardim', checked: false},
-    {nome: 'roberta Jardim', checked: false},
-    {nome: 'miqueias', checked: false},
+    {nome: 'paulinha', checked: false}, //
+    {nome: 'matheus Pimenta', checked: false}, //
+    {nome: 'danielle Alves', checked: false}, //
+    {nome: 'beatriz Monteiro', checked: true}, //
+    {nome: 'carol Monteiro', checked: true}, //
+    {nome: 'simone Monteiro', checked: true}, //
+    {nome: 'alef', checked: true}, //
+    {nome: 'renata', checked: false}, //
+    {nome: 'gilvan', checked: false}, //
+    {nome: 'marcela Souza', checked: false}, //
+    {nome: 'luiz (marcela)', checked: false}, //
+    {nome: 'mariana', checked: false}, //
+    {nome: 'anna Júlya', checked: true}, //
+    {nome: 'yuri', checked: true}, //
+    {nome: 'matheus Jardim', checked: false}, //
+    {nome: 'roberta Jardim', checked: false}, //
+    {nome: 'miqueias', checked: false}, //
     {nome: 'ezequiel', checked: false},
     {nome: 'gabriel Lima', checked: false},
     {nome: 'eduarda Lima', checked: false},
     {nome: 'elizene', checked: false},
     {nome: 'odomar', checked: false},
-    {nome: 'gabriel Souza', checked: false},
-    {nome: 'juan Quirino', checked: false},
-    {nome: 'gilson Batista', checked: false},
-    {nome: 'andreia Batista', checked: false},
-    {nome: 'sarah Batista', checked: false},
-    {nome: 'rafael Alexandrino', checked: false},
+    {nome: 'gabriel Souza', checked: false}, //
+    {nome: 'juan Quirino', checked: false}, //
+    {nome: 'gilson Batista', checked: false}, //
+    {nome: 'andreia Batista', checked: false}, //
+    {nome: 'sarah Batista', checked: false}, //
+    {nome: 'rafael Alexandrino', checked: false}, //
     {nome: 'pablo Lopes', checked: false},
     {nome: 'keithanne Lopes', checked: false},
     {nome: 'cristiano Santos', checked: false},
