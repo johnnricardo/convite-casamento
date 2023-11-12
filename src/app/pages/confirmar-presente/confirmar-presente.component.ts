@@ -124,7 +124,7 @@ export class ConfirmarPresenteComponent implements OnInit {
       window.open(urlExterna, '_blank');
       this.router.navigate([''])
     } else {
-      const urlExterna = `https://api.whatsapp.com/send?phone=5528999067634&text=Ol%C3%A1%2C%20Giovanna!%20Vou%20te%20enviar%20meu%20presente%20por%20pix%21`
+      const urlExterna = `https://api.whatsapp.com/send?phone=5528999013720&text=Ol%C3%A1%2C%20Giovanna!%20Vou%20te%20enviar%20meu%20presente%20por%20pix%21`
       window.open(urlExterna, '_blank');
        this.router.navigate([''])
      }
