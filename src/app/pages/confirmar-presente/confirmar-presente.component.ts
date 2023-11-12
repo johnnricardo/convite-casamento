@@ -15,7 +15,7 @@ export class ConfirmarPresenteComponent implements OnInit {
     ) {}
 
   ngOnInit(): void {
-    this.ordenarPorNome();
+   // this.ordenarPorNome();
   }
   
   listaPresentes = [
@@ -136,10 +136,12 @@ export class ConfirmarPresenteComponent implements OnInit {
 
   marcarCheckBox(i: number) {
 
-    //this.listaPresentes[i].checked = !this.listaPresentes[i].checked
+    this.listaPresentes[i].checked = !this.listaPresentes[i].checked
 
-    this.listaPresentesMarcado[i].checked = !this.listaPresentes[i].checked
+    this.listaPresentesMarcado[i].checked = !this.listaPresentesMarcado[i].checked
   
+
+    console.log(this.listaPresentesMarcado)
     //this.controllerService.anexarPresente( this.listaPresentes[i].nome)
     }
   }
