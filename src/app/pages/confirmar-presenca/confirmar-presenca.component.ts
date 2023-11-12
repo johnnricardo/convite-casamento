@@ -27,7 +27,8 @@ export class ConfirmarPresencaComponent implements OnInit {
 
     this.ordenarPorNome();
 
-    this.listaConvidadosFull = this.listaConvidados
+    this.controllerService.listaInfo()
+    // this.listaConvidadosFull = this.listaConvidados
   }
 
   ordenarPorNome() {
@@ -47,13 +48,17 @@ export class ConfirmarPresencaComponent implements OnInit {
 
   inputChange  (event: string) {
 
-  this.controllerService.search(event)
+    this.controllerService.search(event)
     this.addList()
+    this.ordenarPorNome()
   }
 
   addList() {
+    
     this.listaConvidados = this.controllerService.listaConvidados
+
   }
 
+  
 
 }
