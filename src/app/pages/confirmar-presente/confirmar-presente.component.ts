@@ -20,6 +20,47 @@ export class ConfirmarPresenteComponent implements OnInit {
   
   listaPresentes = [
     {nome: 'Travesseiro', checked: false, confirmado: false},
+    {nome: 'AirFryer', checked: true, confirmado: true },
+    {nome: 'Edredom', checked: false, confirmado: false },
+    {nome: 'Jogo de Lençol', checked: false, confirmado: false },
+    {nome: 'Manta Casal', checked: false, confirmado: false },
+    {nome: 'Ventilador', checked: false, confirmado: false },
+    {nome: 'Travessa de Vidro', checked: false, confirmado: false },
+    {nome: 'Conjunto de Sobremesa', checked: false, confirmado: false },
+    {nome: 'Microondas', checked: false, confirmado: false },
+    {nome: 'Toalha de Mesa', checked: false, confirmado: false },
+    {nome: 'Supla (Souplat)', checked: false, confirmado: false },
+    {nome: 'Bowl', checked: false, confirmado: false },
+    {nome: 'Jarra de Vidro', checked: false, confirmado: false },
+    {nome: 'Jogo de Xícara', checked: false, confirmado: false },
+    {nome: 'Misteira', checked: true, confirmado: true }, // alice
+    {nome: 'Liquidificador', checked: true, confirmado: true }, // isabele //matheus
+    {nome: 'Jogo de Copo', checked: false, confirmado: false }, // raquel
+    {nome: 'Vaso de decoração', checked: false, confirmado: false },
+    {nome: 'Jogo de Almofada', checked: false, confirmado: false },
+    {nome: 'Ferro de Passar Roupas', checked: true, confirmado: true }, // laisa //marcela
+    {nome: 'Jogo de Toalhas', checked: false, confirmado: false },
+    {nome: 'Kit de Banheiro', checked: false, confirmado: false },
+    {nome: 'Varal Portátil', checked: false, confirmado: false },
+    {nome: 'Mesa 4 Cadeiras', checked: false, confirmado: false },
+    {nome: 'Purificador de Água', checked: false, confirmado: false },
+    {nome: 'Jogo de Pirex', checked: false, confirmado: false },
+    {nome: 'Mop de Limpeza', checked: false, confirmado: false },
+    {nome: 'Máquina de Lavar', checked: true, confirmado: true }, // samea
+    {nome: 'Sofá', checked: true, confirmado: true }, // ray, brenda, gu e gi
+    {nome: 'Jogo de Facas', checked: false, confirmado: false },
+    {nome: 'Panela de Arroz Elétrica', checked: false, confirmado: false },
+    {nome: 'Panela de Pressão Elétrica', checked: false, confirmado: false },
+    {nome: 'Aspirador de Pó', checked: false, confirmado: false },
+    {nome: 'Boleira de Vidro', checked: false, confirmado: false },
+    {nome: 'Forno Elétrico', checked: false, confirmado: false },
+
+
+    
+  ]
+
+  listaPresentesMarcado = [
+    {nome: 'Travesseiro', checked: false, confirmado: false},
     {nome: 'AirFryer', checked: false, confirmado: false },
     {nome: 'Edredom', checked: false, confirmado: false },
     {nome: 'Jogo de Lençol', checked: false, confirmado: false },
@@ -58,7 +99,6 @@ export class ConfirmarPresenteComponent implements OnInit {
 
     
   ]
-
   ordenarPorNome() {
     this.listaPresentes.sort((a, b) => a.nome.localeCompare(b.nome));
   }
@@ -67,9 +107,9 @@ export class ConfirmarPresenteComponent implements OnInit {
 
   let presentesMarcados: Array<string> = [ ]
 
-    for(let i = 0; i < this.listaPresentes.length; i++) {
-      if (this.listaPresentes[i].checked == true) {
-        presentesMarcados.push(this.listaPresentes[i].nome) 
+    for(let i = 0; i < this.listaPresentesMarcado.length; i++) {
+      if (this.listaPresentesMarcado[i].checked == true) {
+        presentesMarcados.push(this.listaPresentesMarcado[i].nome) 
       }
     }
 
@@ -96,8 +136,9 @@ export class ConfirmarPresenteComponent implements OnInit {
 
   marcarCheckBox(i: number) {
 
-    this.listaPresentes[i].checked = !this.listaPresentes[i].checked
+    //this.listaPresentes[i].checked = !this.listaPresentes[i].checked
 
+    this.listaPresentesMarcado[i].checked = !this.listaPresentes[i].checked
   
     //this.controllerService.anexarPresente( this.listaPresentes[i].nome)
     }
