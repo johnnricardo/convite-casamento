@@ -29,10 +29,10 @@ export class ControllerService implements OnInit {
     {nome: 'diovani Monteiro', checked: true}, //
     {nome: 'silvia Monteiro', checked: true}, //
     {nome: 'amanda Monteiro', checked: true}, //
-    {nome: 'daniel Fagundes', checked: false}, //
-    {nome: 'thamires', checked: false}, //
-    {nome: 'joão Pedro', checked: false}, //
-    {nome: 'davi Miguel', checked: false}, //
+    {nome: 'daniel Fagundes', checked: true}, //
+    {nome: 'thamires', checked: true}, //
+    {nome: 'joão Pedro', checked: true}, //
+    {nome: 'davi Miguel', checked: true}, //
     {nome: 'fendo Bertolaine', checked: false}, //
     {nome: 'solange Bertolaine', checked: false}, //
     {nome: 'lucas Monteiro', checked: false}, //
@@ -53,14 +53,14 @@ export class ControllerService implements OnInit {
     {nome: 'wellington', checked: true}, //
     {nome: 'geni', checked: false}, //
     {nome: 'walter', checked: false}, //
-    {nome: 'ilma', checked: false},
-    {nome: 'vanil', checked: false},
-    {nome: 'paulo Sergio', checked: false},
-    {nome: 'neuzelina', checked: false},
-    {nome: 'karolyne', checked: false},
-    {nome: 'william', checked: false},
-    {nome: 'queren', checked: true}, //
-    {nome: 'lucas Geri', checked: true}, //
+    {nome: 'ilma', checked: true},
+    {nome: 'vanil', checked: true},
+    {nome: 'paulo Sergio', checked: true},
+    {nome: 'neuzelina', checked: true},
+    {nome: 'karolyne', checked: true},
+    {nome: 'william', checked: true},
+    {nome: 'queren', checked: false}, //
+    {nome: 'lucas Geri', checked: false}, //
     {nome: 'josiel', checked: false}, //
     {nome: 'priscila', checked: false}, //
     {nome: 'marcelo (raquel) ', checked: true}, //
@@ -73,42 +73,42 @@ export class ControllerService implements OnInit {
     {nome: 'dayane', checked: false},
     {nome: 'paulinha', checked: false}, //
     {nome: 'matheus Pimenta', checked: false}, //
-    {nome: 'danielle Alves', checked: false}, //
+    {nome: 'danielle Alves', checked: true}, //
     {nome: 'beatriz Monteiro', checked: true}, //
     {nome: 'carol Monteiro', checked: true}, //
     {nome: 'simone Monteiro', checked: true}, //
-    {nome: 'alef', checked: true}, //
-    {nome: 'renata', checked: false}, //
-    {nome: 'gilvan', checked: false}, //
-    {nome: 'marcela Souza', checked: false}, //
-    {nome: 'luiz (marcela)', checked: false}, //
-    {nome: 'mariana', checked: false}, //
+    {nome: 'alefe', checked: true}, //
+    {nome: 'renata', checked: true}, //
+    {nome: 'gilvan', checked: true}, //
+    {nome: 'marcela Souza', checked: true}, //
+    {nome: 'luiz (marcela)', checked: true}, //
+    {nome: 'mariana', checked: true}, //
     {nome: 'anna Júlya', checked: true}, //
     {nome: 'yuri', checked: true}, //
-    {nome: 'matheus Jardim', checked: false}, //
-    {nome: 'roberta Jardim', checked: false}, //
-    {nome: 'miqueias', checked: false}, //
-    {nome: 'ezequiel', checked: false},
+    {nome: 'matheus Jardim', checked: true}, //
+    {nome: 'roberta Jardim', checked: true}, //
+    {nome: 'miqueias', checked: true}, //
+    {nome: 'ezequiel', checked: true},
     {nome: 'gabriel Lima', checked: false},
     {nome: 'eduarda Lima', checked: false},
     {nome: 'elizene', checked: false},
     {nome: 'odomar', checked: false},
     {nome: 'gabriel Souza', checked: false}, //
     {nome: 'juan Quirino', checked: false}, //
-    {nome: 'gilson Batista', checked: false}, //
-    {nome: 'andreia Batista', checked: false}, //
-    {nome: 'sarah Batista', checked: false}, //
+    {nome: 'gilson Batista', checked: true}, //
+    {nome: 'andreia Batista', checked: true}, //
+    {nome: 'sarah Batista', checked: true}, //
     {nome: 'rafael Alexandrino', checked: false}, //
-    {nome: 'pablo Lopes', checked: false},
-    {nome: 'keithanne Lopes', checked: false},
+    {nome: 'pablo Lopes', checked: true},
+    {nome: 'keithanne Lopes', checked: true},
     {nome: 'cristiano Santos', checked: false},
     {nome: 'juliana Bagatol', checked: false},
     {nome: 'marlene', checked: false},
     {nome: 'isabelly', checked: true},
     {nome: 'rosalina', checked: false},
     {nome: 'laísa', checked: true},
-    {nome: 'lucia (gazeta)', checked: false},
-    {nome: 'gustavo Ribeiro', checked: false},
+    {nome: 'lucia (gazeta)', checked: true},
+    {nome: 'gustavo Ribeiro', checked: true},
     {nome: 'vivia Lima', checked: false},
     {nome: 'marceli Tomazeli', checked: false},
     {nome: 'thamirys Lima', checked: false},
@@ -116,14 +116,14 @@ export class ControllerService implements OnInit {
     {nome: 'hosana', checked: true},
     {nome: 'thayane', checked: true},
     {nome: 'igor', checked: true},
-    {nome: 'ester Boleli', checked: false},
-    {nome: 'vania Boleli', checked: false},
+    {nome: 'ester Boleli', checked: true},
+    {nome: 'vania Boleli', checked: true},
     {nome: 'alice (gazeta)', checked: true},
     {nome: 'tomaz (gazeta)', checked: false},
     {nome: 'gabriel Ramos (dev)', checked: false},
     {nome: 'felipe (dev)', checked: false},
-    {nome: 'raylane Cabral', checked: false},
-    {nome: 'julllya Bertine', checked: false},
+    {nome: 'raylane Cabral', checked: true},
+    {nome: 'julllya Bertine', checked: true},
     {nome: 'dona Ana', checked: false},
     {nome: 'Pedro Debona', checked: false},
 

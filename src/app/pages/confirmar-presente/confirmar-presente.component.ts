@@ -20,36 +20,36 @@ export class ConfirmarPresenteComponent implements OnInit {
   
   listaPresentes = [
     {nome: 'Travesseiro', checked: false, confirmado: false},
-    {nome: 'AirFryer', checked: true, confirmado: true },
+    {nome: 'AirFryer', checked: true, confirmado: true }, // thayane e igor
     {nome: 'Edredom', checked: false, confirmado: false },
     {nome: 'Jogo de Lençol', checked: false, confirmado: false },
     {nome: 'Manta Casal', checked: false, confirmado: false },
     {nome: 'Ventilador', checked: false, confirmado: false },
-    {nome: 'Travessa de Vidro', checked: false, confirmado: false },
+    {nome: 'Travessa de Vidro', checked: true, confirmado: true }, // miqueias
     {nome: 'Conjunto de Sobremesa', checked: false, confirmado: false },
-    {nome: 'Microondas', checked: false, confirmado: false },
+    {nome: 'Microondas', checked: true, confirmado: true }, //daniel
     {nome: 'Toalha de Mesa', checked: false, confirmado: false },
     {nome: 'Supla (Souplat)', checked: false, confirmado: false },
-    {nome: 'Bowl', checked: false, confirmado: false },
-    {nome: 'Jarra de Vidro', checked: false, confirmado: false },
+    {nome: 'Bowl', checked: false, confirmado: false }, // dani
+    {nome: 'Jarra de Vidro', checked: true, confirmado: true }, // miqueias e roberta
     {nome: 'Jogo de Xícara', checked: false, confirmado: false },
-    {nome: 'Misteira', checked: true, confirmado: true }, // alice
-    {nome: 'Liquidificador', checked: true, confirmado: true }, // isabele //matheus
-    {nome: 'Jogo de Copo', checked: false, confirmado: false }, // raquel
+    {nome: 'Misteira', checked: true, confirmado: true }, // alice // raylane
+    {nome: 'Liquidificador', checked: true, confirmado: true }, // isabele
+    {nome: 'Jogo de Copo', checked: false, confirmado: false }, // raquel matheus
     {nome: 'Vaso de decoração', checked: false, confirmado: false },
     {nome: 'Jogo de Almofada', checked: false, confirmado: false },
-    {nome: 'Ferro de Passar Roupas', checked: true, confirmado: true }, // laisa //marcela
+    {nome: 'Ferro de Passar Roupas', checked: true, confirmado: true }, // laisa //marcela // gustavo
     {nome: 'Jogo de Toalhas', checked: false, confirmado: false },
     {nome: 'Kit de Banheiro', checked: false, confirmado: false },
     {nome: 'Varal Portátil', checked: false, confirmado: false },
     {nome: 'Mesa 4 Cadeiras', checked: false, confirmado: false },
     {nome: 'Purificador de Água', checked: false, confirmado: false },
-    {nome: 'Jogo de Pirex', checked: false, confirmado: false },
-    {nome: 'Mop de Limpeza', checked: false, confirmado: false },
+    {nome: 'Jogo de Pirex', checked: false, confirmado: false }, // travessa vidro
+    {nome: 'Mop de Limpeza', checked: true, confirmado: true }, // julya
     {nome: 'Máquina de Lavar', checked: true, confirmado: true }, // samea
     {nome: 'Sofá', checked: true, confirmado: true }, // ray, brenda, gu e gi
     {nome: 'Jogo de Facas', checked: false, confirmado: false },
-    {nome: 'Panela de Arroz Elétrica', checked: false, confirmado: false },
+    {nome: 'Panela de Arroz Elétrica', checked: true, confirmado: true }, // neuzelina
     {nome: 'Panela de Pressão Elétrica', checked: false, confirmado: false },
     {nome: 'Aspirador de Pó', checked: false, confirmado: false },
     {nome: 'Boleira de Vidro', checked: false, confirmado: false },
