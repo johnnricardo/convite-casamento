@@ -8,7 +8,7 @@ export class ControllerService  {
   public NomeConvidado: string = ''
   public presentes: Array<string> =  []
   constructor() { }
- 
+
 
   listaConvidados = [
     {nome: 'ray Cabral', checked: true}, //
@@ -116,16 +116,17 @@ export class ControllerService  {
     {nome: 'raylane Cabral', checked: true},
     {nome: 'julllya Bertine', checked: true},
     {nome: 'dona Ana', checked: false},
-    {nome: 'Pedro Debona', checked: false},
-    { nome: 'Robinho Nazzaré', checked: false },
-    { nome: 'Marina', checked: false },
-    { nome: 'Alice', checked: false },
-    { nome: 'Daniela Mapelli', checked: false },
-    { nome: 'Juliana Mapelli', checked: false },
-    { nome: 'Malon', checked: false },
-    { nome: 'Letícia Karolyne', checked: false },
-    { nome: 'Bruno Albano', checked: false },
-
+    {nome: 'pedro Debona', checked: false},
+    {nome: 'robinho Nazzaré', checked: false },
+    {nome: 'marina', checked: false },
+    {nome: 'alice', checked: false },
+    {nome: 'daniela Mapelli', checked: false },
+    {nome: 'juliana Mapelli', checked: false },
+    {nome: 'malon', checked: false },
+    {nome: 'letícia Karolyne', checked: false },
+    {nome: 'bruno Albano', checked: false },
+    //{nome: 'thiago', checked: false },
+    //{nome: 'carol', checked: false },
   ]
 
   listaConvidadosFull = [
@@ -234,15 +235,17 @@ export class ControllerService  {
     {nome: 'raylane Cabral', checked: false},
     {nome: 'julllya Bertine', checked: false},
     {nome: 'dona Ana', checked: false},
-    {nome: 'Pedro Debona', checked: false},
-    { nome: 'Robinho Nazzaré', checked: false },
-    { nome: 'Marina', checked: false },
-    { nome: 'Alice', checked: false },
-    { nome: 'Daniela Mapelli', checked: false },
-    { nome: 'Juliana Mapelli', checked: false },
-    { nome: 'Malon', checked: false },
-    { nome: 'Letícia Karolyne', checked: false },
-    { nome: 'Bruno Albano', checked: false },
+    {nome: 'pedro Debona', checked: false},
+    {nome: 'robinho Nazzaré', checked: false },
+    {nome: 'marina', checked: false },
+    {nome: 'alice', checked: false },
+    {nome: 'daniela Mapelli', checked: false },
+    {nome: 'juliana Mapelli', checked: false },
+    {nome: 'malon', checked: false },
+    {nome: 'letícia Karolyne', checked: false },
+    {nome: 'bruno Albano', checked: false },
+    //{nome: 'thiago', checked: false },
+    //{nome: 'carol', checked: false },
 
   ]
 
