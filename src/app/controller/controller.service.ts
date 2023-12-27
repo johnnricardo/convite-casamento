@@ -1,23 +1,14 @@
-import { Injectable, OnInit } from '@angular/core';
+import { Injectable } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
 })
-export class ControllerService implements OnInit {
+
+export class ControllerService  {
   public NomeConvidado: string = ''
   public presentes: Array<string> =  []
   constructor() { }
-  ngOnInit(): void {
-    this.ordenarPorNome();
-
-
-
-  }
-
-  ordenarPorNome() {
-
-   // this.listaConvidados.sort((a, b) => a.nome.localeCompare(b.nome));
-  }
+ 
 
   listaConvidados = [
     {nome: 'ray Cabral', checked: true}, //
@@ -126,6 +117,14 @@ export class ControllerService implements OnInit {
     {nome: 'julllya Bertine', checked: true},
     {nome: 'dona Ana', checked: false},
     {nome: 'Pedro Debona', checked: false},
+    { nome: 'Robinho Nazzaré', checked: false },
+    { nome: 'Marina', checked: false },
+    { nome: 'Alice', checked: false },
+    { nome: 'Daniela Mapelli', checked: false },
+    { nome: 'Juliana Mapelli', checked: false },
+    { nome: 'Malon', checked: false },
+    { nome: 'Letícia Karolyne', checked: false },
+    { nome: 'Bruno Albano', checked: false },
 
   ]
 
@@ -236,46 +235,33 @@ export class ControllerService implements OnInit {
     {nome: 'julllya Bertine', checked: false},
     {nome: 'dona Ana', checked: false},
     {nome: 'Pedro Debona', checked: false},
+    { nome: 'Robinho Nazzaré', checked: false },
+    { nome: 'Marina', checked: false },
+    { nome: 'Alice', checked: false },
+    { nome: 'Daniela Mapelli', checked: false },
+    { nome: 'Juliana Mapelli', checked: false },
+    { nome: 'Malon', checked: false },
+    { nome: 'Letícia Karolyne', checked: false },
+    { nome: 'Bruno Albano', checked: false },
 
   ]
 
   listaConvidadosAfter: Array<any> = []
 
-  // anexarPresente(nome: string) {
-  //   let presente = nome
-  //   let controler = false
 
-  //   for (let i = 0; i < presente.length; i++){
-  //     if(this.presentes[i] === nome){
-  //       this.presentes.splice(i, 1)
-  //       i = 1000
-  //       controler = true
-  //     }
-  //   }
-
-  //   if( controler === false) {
-  //     this.presentes.push(nome)
-  //   }
-
-  // }
 
   search (dados: string) {
 
     dados = String(dados)
 
     for ( let i = 0; i < this.listaConvidadosFull.length ; i++) {
-      // console.log(`passei em`)
-      // console.log(this.listaConvidadosFull[i].nome)
       if (this.listaConvidadosFull[i].nome.startsWith(dados.toLowerCase())) {
         this.listaConvidadosAfter.push(this.listaConvidadosFull[i])
-        // console.log(`passou no teste`)
       }
     }
-    // console.log(this.listaConvidadosAfter)
     this.listaConvidados = this.listaConvidadosAfter
     this.listaConvidadosAfter = []
 
-    // console.log(this.listaConvidadosAfter)
     return true
 
     }
